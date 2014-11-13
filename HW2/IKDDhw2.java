@@ -22,7 +22,6 @@ public class IKDDhw2{
 			Map<String, String[]> map_name=new HashMap<String, String[]>();
 			while(rs.next())
 			{
-				//System.out.println(rs.getString(1)+"\t"+rs.getString(3)+"\t"+rs.getString(4));
 				map_name.put(rs.getString(1), new String[] {rs.getString(4),rs.getString(3),rs.getString(2)});
 			}
 			
